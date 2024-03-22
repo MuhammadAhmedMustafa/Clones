@@ -18,4 +18,20 @@ body {
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
 
+}.main .box {
+
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60vw;
+    margin: auto;
+    align-items: center;
+    height: 100px;
 }
